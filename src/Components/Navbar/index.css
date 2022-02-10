@@ -1,0 +1,55 @@
+.main-navbar {
+    width: 100%;
+    padding: 20px 50px;
+    /* background: transparent; */
+    background: none;
+}
+.nav-color {
+    background-color:#F9F5E8;
+    /* background-color:none !important; */
+    width: 100%;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-weight: bold;
+}
+.brand {
+    font-weight: bold;
+}
+.nav {
+    
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.navlink {
+    display: block;
+    margin: 0 20px;
+}
+.navlink:hover {
+    background-color: #F9F5E8;
+    border-radius: 5px;
+}
+
+/* #FDD65B */
+/* #F9F5E8 */
+/* #00715D */
+/* #263734 */
+
+
+@media screen and (max-width: 383px) {
+    .brand a span {
+      display: none;
+    }
+    .brand a img {
+        margin-left: 20px;
+    }
+
+  }
+
+  @media screen and (max-width: 1060px) {
+    .nav-color {
+        width: 100%;
+    }
+
+  }

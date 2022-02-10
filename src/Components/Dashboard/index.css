@@ -1,0 +1,81 @@
+* {
+    overflow: hidden; /* Hide scrollbars */
+    font-family: 'Yeseva One', cursive;
+}
+
+
+
+.dashboard {
+    background-color: black;
+}
+
+.left {
+    background-color: #F9F5E8;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.dashboard-container h1 {
+    font-size: 72px;
+    color: #263734;
+    text-align:left;
+}
+
+.dashboard-container p {
+    color: #263734;
+    text-align:left;
+}
+
+.button-donate {
+    margin-top: 30px;
+    color: #263734;
+    width: 30%
+}
+
+.right {
+    background-color: #FDD65B;
+    padding-left:0;
+    height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.right-img img{
+    width: 100%;
+    display: flex;
+    align-items: left;
+}
+
+@media screen and (max-width: 1060px) {
+    * {
+        overflow-x: hidden;
+        overflow-y: visible;
+        
+    }
+    .right {
+        padding-bottom: 0;
+        padding-top: 0 ;
+    }
+    .right-img img{
+        margin-top: 0;
+    }
+    .row-main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+     .dashboard-container{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         padding: 30px;
+     }
+
+  }

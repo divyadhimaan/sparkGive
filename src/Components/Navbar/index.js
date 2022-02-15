@@ -7,8 +7,8 @@ function MainNavbar() {
     <div>
       <Navbar className="nav-color" collapseOnSelect expand="lg" variant="light">
         <Container>
-          <Navbar.Brand className="brand" href="/">
-            <a>
+          <Navbar.Brand className="brand" >
+            <a href="/">
               <img src={logo} style={{ width: 40, marginTop: -7 }} alt="logo" className="brand-logo"/>
               <span>The Spark Foundation</span>
             </a>

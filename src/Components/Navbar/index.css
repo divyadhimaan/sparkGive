@@ -16,6 +16,10 @@
 .brand {
     font-weight: bold;
 }
+.brand a{
+    text-decoration: none;
+    color: black;
+}
 .nav {
     
     margin-right: 0;

@@ -1,8 +1,7 @@
 # Donation App designed for The Spark Foundation
 
-This website is for the Spark Foundation which includes integration of payment gateways using razorpay.
-An payment page is added in the website which enables user to add the amount they wanr to donate and then choose any payment method including UPI -( Google pay, PayTM, phonePe), cards, UPI/QR, Netbanking and ICICI pay later.
+This website, developed for the [Spark Foundation](https://www.google.com/search?client=safari&rls=en&q=sparks+foundation&ie=UTF-8&oe=UTF-8), integrates Razorpay for seamless payment processing. Users can easily select the amount they wish to donate and choose from various payment methods, including UPI (Google Pay, PayTM, PhonePe), cards, UPI/QR, net banking, and ICICI Pay Later.
 
-One the payment is done an e-reciept will be generated and sent to the user immediately after the payment on his entered email address and the e-Recipet contains the amount payed by the user. Also a summary of received payemnts is sent to the foundation at the end of the day.
+Upon successful payment, an e-receipt is automatically generated and sent to the user’s email, detailing the donated amount. Additionally, a daily summary of all payments received is sent to the foundation, ensuring smooth tracking and transparency of donations.
 
 ![](screenshot/Donation-app.png)
